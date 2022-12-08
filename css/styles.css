@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #a8a1a1;
+    color: #369;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 50px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color: #369;
+    color: #fff;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+footer {
+    background-color: #369;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1,
+h2 {
+    text-align: center;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+}
+
+label, 
+input {
+    display: inline-block;
+    margin: 0px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.pagetitle {
+    float: left;
+    vertical-align: middle;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 5px auto;
+    padding: 5px auto;
+}
+
+.display.inline {
+    display: inline;
+}
+
+.formcontainer {
+    padding: 10px;
+    display: block;
+    margin: 5px;
+}
+
+.formbutton {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+.contactform {
+    background-color: #369;
+    color: #fff;
+    width: 50%
+    height: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar {
+    float: right;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    position: fixed;
+    display: inline;
+    top: 0;
+    right: 0;
+}
+
+.navbar a {
+    color: #fff;
+    font-size: larger;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    display: inline;
+}
+
+.navbar li {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: inline;
+    }
+
+.footer-text {
+    text-align: center;
+    display: block;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.footer-text a {
+    color: #fff;
+    text-decoration: none;
+}
